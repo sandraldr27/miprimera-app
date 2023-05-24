@@ -1,0 +1,15 @@
+<ng-container *ngIf="product">  <!--De esta forma le indicamos al código= Si hay producto, muéstrame lo siguiente-->
+  <h2>{{ product.title }}</h2>
+  <p>${{ product.price }}</p>
+  <img [ngSrc]="product. images[0]" width="640" height="480"> <!-- Es una directiva de enlace de datos de Angular que se utiliza para mostrar una imagen en la página. La directiva [ngSrc] se utiliza para enlazar la fuente de la imagen a una propiedad en el componente. En este caso, la propiedad product.images[0] se utiliza como fuente de la imagen. La sintaxis [ngSrc]="product.images[0]" se utiliza para enlazar la propiedad product.images[0] a la fuente de la imagen. Los atributos width y height se utilizan para establecer el ancho y la altura de la imagen-->
+</ng-container>
+<ng-container *ngIf="!product">  <!--De esta forma le indicamos al código= Si no hay producto, muéstrame lo siguiente-->
+  <p>Producto no Renderizado</p>
+</ng-container>
+
+<!--
+  1) Como primer paso, aquí renderizamos el {{title}} que hemos generado en nuestro componente product que está en el archivo product.components.ts
+  2) En un paso siguiente, dicho {{title}} ha sido cambiado por la palabra {{product.title}}
+  3) A continuación renderizamos también la información del producto y las imágenes
+  4) La etiqueta <ng-container></ng-container> reemplaza en angular a los <div></div> para no generar más etiquetas HTML, que además encapsulan el contenido
+-->
