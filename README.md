@@ -7,7 +7,7 @@ INSTALACIÓN DE ANGULAR:
 
 2) Abrir un terminal CMD y verificar que se ha instalado, ejecutando los comandos:
 
-   a) node -v
+   a) node -v <br>
    b) npm -v
 
 3) En el terminal CMD, limpiar la caché con el comando: 
