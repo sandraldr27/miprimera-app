@@ -38,9 +38,9 @@ INSTALACIÓN DE ANGULAR:
 SI QUEREMOS DESINSTALAR ANGULAR:
 
 1) En un terminal CMD escribir uno a uno los siguientes comandos:
-       npm uninstall -g @angular/cli
-       npm cache verify
-       npm install -g@angular/cli   (Si queremos descargar la última versión)
+       npm uninstall -g @angular/cli  <br>
+       npm cache verify  <br>
+       npm install -g@angular/cli   (Si queremos descargar la última versión) <br>
        npm install -g @angular/cli@version   (Si queremos instalar una versión en concreto)
 
 
