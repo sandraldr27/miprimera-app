@@ -1,3 +1,9 @@
+<h1>First Angular App With API (Pedagogical Project)</h1>
+
+<h2>Final App View:</h2>
+
+https://github.com/sandraldr27/miprimera-app/assets/116546588/8d639bc5-040a-40c4-9422-4bb076e0c023
+
 INSTALACIÓN DE ANGULAR:
 
 * Nota: Esta App se ha trabajado con la versión 15.04.0 de Angular y 18.13.0 de Node.Js
