@@ -1,0 +1,39 @@
+:host {
+  background-color: rgb(2, 2, 61);
+  padding: 10px;
+  display: block;
+}
+
+h2 {
+  color: rgb(169, 165, 251);
+  font-size: 30px;
+
+}
+
+.price-container {
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.col-md-4 {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.product-item {
+  background-color: rgb(169, 165, 251);
+  padding: 10px;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.price {
+  text-align: center;
+}
